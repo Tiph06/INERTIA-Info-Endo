@@ -1,4 +1,5 @@
 // resources/js/components/ui/blog-header.jsx
+
 import React from 'react';
 import { Link } from '@inertiajs/react';
 
