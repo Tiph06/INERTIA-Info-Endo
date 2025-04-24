@@ -1,12 +1,12 @@
 import { Head, useForm } from '@inertiajs/react';
 import { LoaderCircle } from 'lucide-react';
 
-import InputError from '@/components/input-error';
+import InputError from '@/components/ui/input-error';
 import TextLink from '@/components/text-link';
-import { Button } from '@/components/ui/button';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import Button from '@/components/ui/button';
+import Checkbox from '@/components/ui/checkbox';
+import Input from '@/components/ui/input';
+import  Label  from '@/components/ui/label';
 import AuthLayout from '@/layouts/auth-layout';
 
 export default function Login({ status, canResetPassword }) {
